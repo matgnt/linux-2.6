@@ -155,6 +155,8 @@
 
 #define PORT_SC26XX	82
 
+#define PORT_TMPA910	83
+
 #ifdef __KERNEL__
 
 #include <linux/compiler.h>
