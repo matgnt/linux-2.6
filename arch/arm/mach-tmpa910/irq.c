@@ -29,8 +29,8 @@
 #include <asm/io.h>
 
 #include <asm/mach/irq.h>
-#include <asm/arch/gpio.h>
-#include <asm/arch/tmpa910_regs.h>
+#include <mach/gpio.h>
+#include <mach/tmpa910_regs.h>
 
 /*********/
 /*********/

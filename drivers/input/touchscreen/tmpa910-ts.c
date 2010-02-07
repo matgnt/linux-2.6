@@ -26,9 +26,9 @@
 #include <linux/delay.h>
 #include <linux/init.h>
 
-#include <asm/arch/tmpa910_regs.h>
-#include <asm/arch/ts.h>
-#include <asm/arch/adc.h>
+#include <mach/tmpa910_regs.h>
+#include <mach/ts.h>
+#include <mach/adc.h>
 
 /*******/
 /*******/

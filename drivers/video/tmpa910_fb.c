@@ -19,7 +19,7 @@
 #include <linux/delay.h>
 #include <linux/fb.h>
 #include <linux/init.h>
-#include <asm/arch/tmpa910_regs.h>
+#include <mach/tmpa910_regs.h>
 
 #include <asm/byteorder.h>
 #include <linux/screen_info.h>

@@ -3055,8 +3055,8 @@ static int __init isp1362_probe(struct platform_device *pdev)
 
 #ifdef	CONFIG_ARM
 	if (isp1362_hcd->board) {
-		NPRINTK("irq type <%s>\n", isp1362_hcd->board->int_act_high ? "IRQT_RISING" : "IRQT_FALLING" );
-		set_irq_type(irq, isp1362_hcd->board->int_act_high ? IRQT_RISING : IRQT_FALLING);
+		NPRINTK("irq type <%s>\n", isp1362_hcd->board->int_act_high ? "IRQ_TYPE_EDGE_RISING" : "IRQ_TYPE_EDGE_FALLING" );
+		set_irq_type(irq, isp1362_hcd->board->int_act_high ? IRQ_TYPE_EDGE_RISING : IRQ_TYPE_EDGE_FALLING);
 	}
 #endif
 

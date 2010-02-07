@@ -24,13 +24,13 @@
 
 #include <linux/tick.h>
 
-#include <asm/hardware.h>
+#include <mach/hardware.h>
 #include <asm/io.h>
 #include <asm/leds.h>
 #include <asm/irq.h>
 #include <asm/mach/time.h>
 
-#include <asm/arch/tmpa910_regs.h>
+#include <mach/tmpa910_regs.h>
 
 /*********/
 /*********/

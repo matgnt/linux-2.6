@@ -35,7 +35,7 @@
 
 
 #include <asm/io.h>
-#include <asm/hardware.h>
+#include <mach/hardware.h>
 #include <asm/irq.h>
 /*********/
 /*********/
@@ -366,7 +366,7 @@ receive_chars(struct uart_tmpa910_handle *uart_tmpa910_handle)
 {
 	volatile struct tmpa910_uart_regs *regs = uart_tmpa910_handle->regs;
 
-	struct tty_struct *tty = uart_tmpa910_handle->port.info->tty;
+	struct tty_struct *tty = uart_tmpa910_handle->port.info->port.tty;
 	unsigned int ch, flag;
 	uint32_t fr_reg;
 	uint32_t dr_reg;

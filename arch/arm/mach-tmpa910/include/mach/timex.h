@@ -20,7 +20,7 @@
 
 #ifndef __ASM_ARCH_TIMEX_H
 #define __ASM_ARCH_TIMEX_H
-#include <asm/arch/hardware.h>
+#include <mach/hardware.h>
 #define CLOCK_TICK_RATE         (CLK32)
 
 #endif

@@ -14,7 +14,7 @@
 #include <linux/interrupt.h>
 
 #include <asm/system.h>
-#include <asm/hardware.h>
+#include <mach/hardware.h>
 #include <asm/irq.h>
 #include <asm/pgtable.h>
 #include <asm/page.h>
@@ -23,12 +23,12 @@
 #include <asm/mach-types.h>
 
 #include <video/tmpa910_fb.h>
-#include <asm/arch/gpio.h>
+#include <mach/gpio.h>
 
 #include <asm/mach/arch.h>
-#include <asm/arch/hardware.h>
-#include <asm/arch/ts.h>
-#include <asm/arch/tmpa910_regs.h>
+#include <mach/hardware.h>
+#include <mach/ts.h>
+#include <mach/tmpa910_regs.h>
 #include <asm/serial.h>
 #include <asm/dma.h>
 
