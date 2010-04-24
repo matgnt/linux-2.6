@@ -74,6 +74,7 @@
  * crap here - that's what the boot loader (or in extreme, well justified
  * circumstances, zImage) is for.
  */
+
 	.section ".text.head", "ax"
 ENTRY(stext)
 	setmode	PSR_F_BIT | PSR_I_BIT | SVC_MODE, r9 @ ensure svc mode
@@ -102,6 +103,7 @@ ENTRY(stext)
  THUMB(	add	r12, r10, #PROCINFO_INITFUNC	)
  THUMB(	mov	pc, r12				)
 ENDPROC(stext)
+PB_ADDR: .word (0xf08013FC)
 
 #if defined(CONFIG_SMP)
 ENTRY(secondary_startup)

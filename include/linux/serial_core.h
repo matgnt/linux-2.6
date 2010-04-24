@@ -179,6 +179,10 @@
 /* BCM63xx family SoCs */
 #define PORT_BCM63XX	89
 
+/* Toshiba TMPA9x0 SoC */
+#define PORT_TMPA910	90
+
+
 #ifdef __KERNEL__
 
 #include <linux/compiler.h>
